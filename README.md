@@ -39,6 +39,8 @@ The goal is to ensure that users can only access resources based on their job ro
 
 * Security_Groups
 
+![IPCONFIG](screenshots/OU_USERS_GROUPS/OU_CREATED.png)
+
 
 ## 👥 Users
 
