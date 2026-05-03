@@ -143,7 +143,14 @@ C:\CompanyData\
 
 * Final access controlled by NTFS (most restrictive)
 
-![IPCONFIG](screenshots/NTFS/SHARED_ACCESS_PERMISSIONS.png)
+![IPCONFIG](screenshots/Share_permissions/HR_ACCESS_SHARING.png)
+
+![IPCONFIG](screenshots/Share_permissions/IT_ADMINS_SHARING.png)
+
+![IPCONFIG](screenshots/Share_permissions/FINANCE_ACCESS_SHARING.png)
+
+![IPCONFIG](screenshots/Share_permissions/SHARED_ACCESS_SHARING.png)
+
 
 
 ## 🧪 Access Testing (Proof of RBAC)
