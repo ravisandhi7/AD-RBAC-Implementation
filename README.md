@@ -118,19 +118,21 @@ C:\CompanyData\
 
 * HR → HR_Access (Modify)
 
+![IPCONFIG](screenshots/NTFS/HR_ACCESS_PERMISSIONS.png)
+
+
 * IT → IT_Admins (Modify)
+  
+![IPCONFIG](screenshots/NTFS/IT_ADMINS_PERMISSIONS.png)
 
 * Finance → Finance_Access (Modify)
 
-* Shared → Shared_Access (Modify)
-
-![IPCONFIG](screenshots/NTFS/HR_ACCESS_PERMISSIONS.png)
-
 ![IPCONFIG](screenshots/NTFS/FINANCE_ACCESS_PERMISSIONS.png)
 
-![IPCONFIG](screenshots/NTFS/IT_ADMINS_PERMISSIONS.png)
+* Shared → Shared_Access (Modify)
 
 ![IPCONFIG](screenshots/NTFS/SHARED_ACCESS_PERMISSIONS.png)
+
 
 
 ### Share Permissions
