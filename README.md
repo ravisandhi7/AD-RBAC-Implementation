@@ -4,7 +4,7 @@
 
 This project demonstrates **Role-Based Access Control (RBAC)** implementation using **Active Directory** and **NTFS permissions** in a Windows Server environment.
 
-The goal is to ensure that users can only access resources based on their job roles (HR, IT, Finance).
+The goal is to ensure that users can only access resources based on their job roles (HR_Dept, IT_Dept, Finance_Dept).
 
 
 ## 🏗️ Lab Environment
@@ -45,7 +45,7 @@ The goal is to ensure that users can only access resources based on their job ro
 ## 👥 Users
 
 
-### HR
+### HR_Dept
 
 
 * hrdept1
@@ -56,7 +56,7 @@ The goal is to ensure that users can only access resources based on their job ro
 ![HRDEPT_USERS](screenshots/OU_USERS_GROUPS/HRDEPT_USERS.png)
 
 
-### IT
+### IT_Dept
 
 * itdept1
 
@@ -65,7 +65,7 @@ The goal is to ensure that users can only access resources based on their job ro
 ![ITDEPT_USERS](screenshots/OU_USERS_GROUPS/ITDEPT_USERS.png)
 
 
-### Finance
+### Finance_Dept
 
 * financedept1
 
@@ -87,11 +87,11 @@ The goal is to ensure that users can only access resources based on their job ro
 
 ## RBAC Mapping
 
-| Department | Users        | Group          | Access         |
-| ---------- | ------------ | -------------- | -------------- |
-| HR         | hrdept1      | HR_Access      | HR Folder Only |
-| IT         | itdept1      | IT_Admins      | IT Folder Only |
-| Finance    | financedept1 | Finance_Access | Finance Folder |
+| Department      | Users        | Group          | Access         |
+| ----------      | ------------ | -------------- | -------------- |
+| HR_Dept         | hrdept1      | HR_Access      | HR Folder Only |
+| IT_Dept         | itdept1      | IT_Admins      | IT Folder Only |
+| Finance_Dept    | financedept1 | Finance_Access | Finance Folder |
 
 ![SECURITY_GROUPS](screenshots/OU_USERS_GROUPS/SECURITY_GROUPS.png)
 
