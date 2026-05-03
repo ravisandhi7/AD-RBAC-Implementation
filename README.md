@@ -109,6 +109,9 @@ C:\CompanyData\
 
 * Shared
 
+![IPCONFIG](screenshots/OU_USERS_GROUPS/COMPANY_DATA_FOLDERS.png)
+
+
 ## 🔐 Permissions Design
 
 ### NTFS Permissions
