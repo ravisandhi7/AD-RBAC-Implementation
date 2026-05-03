@@ -162,7 +162,7 @@ C:\CompanyData\
 
 ## 🧪 Access Testing (Proof of RBAC)
 
-### HR User
+### HR Users
 
 * Access HR_Share → ✅ Allowed
  
@@ -174,7 +174,7 @@ C:\CompanyData\
 ![HRDEPT_TO_FINANCE_SHARE_DENY](screenshots/verification/HRDEPT_TO_FINANCE_SHARE_DENY.png)
 
 
-### IT User
+### IT Users
 
 * Access IT_Share → ✅ Allowed
 
@@ -184,7 +184,7 @@ C:\CompanyData\
 
 ![ITDEPT_TO_HR_SHARE_DENY](screenshots/verification/ITDEPT_TO_HR_SHARE_DENY.png)
 
-### Finance User
+### Finance Users
 
 * Access Finance_Share → ✅ Allowed
   
