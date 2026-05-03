@@ -53,6 +53,8 @@ The goal is to ensure that users can only access resources based on their job ro
 
 * hrdept2
 
+![IPCONFIG](screenshots/OU_USERS_GROUPS/HRDEPT_USERS.png)
+
 
 ### IT
 
@@ -60,11 +62,17 @@ The goal is to ensure that users can only access resources based on their job ro
 
 * itdept2
 
+![IPCONFIG](screenshots/OU_USERS_GROUPS/ITDEPT_USERS.png)
+
+
 ### Finance
 
 * financedept1
 
 * financedept2
+
+![IPCONFIG](screenshots/OU_USERS_GROUPS/FINANCEDEPT_USERS.png)
+
 
 ## 🔐 Security Groups (RBAC Roles)
 
@@ -85,6 +93,9 @@ The goal is to ensure that users can only access resources based on their job ro
 | IT         | itdept1      | IT_Admins      | IT Folder Only |
 | Finance    | financedept1 | Finance_Access | Finance Folder |
 
+![IPCONFIG](screenshots/OU_USERS_GROUPS/SECURITY_GROUPS.png)
+
+SECURITY_GROUPS
 
 ## 📁 Folder Structure
 
