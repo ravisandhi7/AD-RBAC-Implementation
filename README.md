@@ -10,7 +10,7 @@ The goal is to ensure that users can only access resources based on their job ro
 ## 🏗️ Lab Environment
 
 
-* Windows Server (Domain Controller / ADC)
+* Windows Server (Domain Controller / ROOTDC)
 
 
 * Active Directory Domain Services (AD DS)
@@ -19,7 +19,7 @@ The goal is to ensure that users can only access resources based on their job ro
 * File Server with shared folders
 
 
-* Domain-joined client machine
+* Domain-joined client machine(PC1)
 
 
 ## 📂 Active Directory Structure
@@ -39,7 +39,7 @@ The goal is to ensure that users can only access resources based on their job ro
 
 * Security_Groups
 
-![IPCONFIG](screenshots/OU_USERS_GROUPS/OU_CREATED.png)
+![OU_CREATED](screenshots/OU_USERS_GROUPS/OU_CREATED.png)
 
 
 ## 👥 Users
@@ -53,7 +53,7 @@ The goal is to ensure that users can only access resources based on their job ro
 
 * hrdept2
 
-![IPCONFIG](screenshots/OU_USERS_GROUPS/HRDEPT_USERS.png)
+![HRDEPT_USERS](screenshots/OU_USERS_GROUPS/HRDEPT_USERS.png)
 
 
 ### IT
@@ -62,7 +62,7 @@ The goal is to ensure that users can only access resources based on their job ro
 
 * itdept2
 
-![IPCONFIG](screenshots/OU_USERS_GROUPS/ITDEPT_USERS.png)
+![ITDEPT_USERS](screenshots/OU_USERS_GROUPS/ITDEPT_USERS.png)
 
 
 ### Finance
@@ -71,7 +71,7 @@ The goal is to ensure that users can only access resources based on their job ro
 
 * financedept2
 
-![IPCONFIG](screenshots/OU_USERS_GROUPS/FINANCEDEPT_USERS.png)
+![FINANCEDEPT_USERS](screenshots/OU_USERS_GROUPS/FINANCEDEPT_USERS.png)
 
 
 ## 🔐 Security Groups (RBAC Roles)
@@ -93,15 +93,15 @@ The goal is to ensure that users can only access resources based on their job ro
 | IT         | itdept1      | IT_Admins      | IT Folder Only |
 | Finance    | financedept1 | Finance_Access | Finance Folder |
 
-![IPCONFIG](screenshots/OU_USERS_GROUPS/SECURITY_GROUPS.png)
+![SECURITY_GROUPS](screenshots/OU_USERS_GROUPS/SECURITY_GROUPS.png)
 
-![IPCONFIG](screenshots/OU_USERS_GROUPS/HR_ACCESS_MEMBERS.png)
+![HR_ACCESS_MEMBERS](screenshots/OU_USERS_GROUPS/HR_ACCESS_MEMBERS.png)
 
-![IPCONFIG](screenshots/OU_USERS_GROUPS/IT_ADMINS_MEMBERS.png)
+![IT_ADMINS_MEMBERS](screenshots/OU_USERS_GROUPS/IT_ADMINS_MEMBERS.png)
 
-![IPCONFIG](screenshots/OU_USERS_GROUPS/FINANCE_ACCESS_MEMBERS.png)
+![FINANCE_ACCESS_MEMBERS](screenshots/OU_USERS_GROUPS/FINANCE_ACCESS_MEMBERS.png)
 
-![IPCONFIG](screenshots/OU_USERS_GROUPS/SHARED_ACCESS_MEMBERS.png)
+![SHARED_ACCESS_MEMBERS](screenshots/OU_USERS_GROUPS/SHARED_ACCESS_MEMBERS.png)
 
 
 ## 📁 Folder Structure
@@ -116,7 +116,7 @@ C:\CompanyData\
 
 * Shared
 
-![IPCONFIG](screenshots/OU_USERS_GROUPS/COMPANY_DATA_FOLDERS.png)
+![COMPANY_DATA_FOLDERS](screenshots/OU_USERS_GROUPS/COMPANY_DATA_FOLDERS.png)
 
 
 ## 🔐 Permissions Design
@@ -125,20 +125,20 @@ C:\CompanyData\
 
 * HR → HR_Access (Modify)
 
-![IPCONFIG](screenshots/NTFS/HR_ACCESS_PERMISSIONS.png)
+![HR_ACCESS_PERMISSIONS](screenshots/NTFS/HR_ACCESS_PERMISSIONS.png)
 
 
 * IT → IT_Admins (Modify)
   
-![IPCONFIG](screenshots/NTFS/IT_ADMINS_PERMISSIONS.png)
+![IT_ADMINS_PERMISSIONS](screenshots/NTFS/IT_ADMINS_PERMISSIONS.png)
 
 * Finance → Finance_Access (Modify)
 
-![IPCONFIG](screenshots/NTFS/FINANCE_ACCESS_PERMISSIONS.png)
+![FINANCE_ACCESS_PERMISSIONS](screenshots/NTFS/FINANCE_ACCESS_PERMISSIONS.png)
 
 * Shared → Shared_Access (Modify)
 
-![IPCONFIG](screenshots/NTFS/SHARED_ACCESS_PERMISSIONS.png)
+![SHARED_ACCESS_PERMISSIONS](screenshots/NTFS/SHARED_ACCESS_PERMISSIONS.png)
 
 
 
@@ -150,13 +150,13 @@ C:\CompanyData\
 
 * Final access controlled by NTFS (most restrictive)
 
-![IPCONFIG](screenshots/Share_permissions/HR_ACCESS_SHARING.png)
+![HR_ACCESS_SHARING](screenshots/Share_permissions/HR_ACCESS_SHARING.png)
 
-![IPCONFIG](screenshots/Share_permissions/IT_ADMINS_SHARING.png)
+![IT_ADMINS_SHARING](screenshots/Share_permissions/IT_ADMINS_SHARING.png)
 
-![IPCONFIG](screenshots/Share_permissions/FINANCE_ACCESS_SHARING.png)
+![FINANCE_ACCESS_SHARING](screenshots/Share_permissions/FINANCE_ACCESS_SHARING.png)
 
-![IPCONFIG](screenshots/Share_permissions/SHARED_ACCESS_SHARING.png)
+![SHARED_ACCESS_SHARING](screenshots/Share_permissions/SHARED_ACCESS_SHARING.png)
 
 
 
@@ -166,61 +166,46 @@ C:\CompanyData\
 
 * Access HR_Share → ✅ Allowed
  
-![IPCONFIG](screenshots/verification/HRDEPT_TO_HR_SHARE_WORK.png)
+![HRDEPT_TO_HR_SHARE_WORK](screenshots/verification/HRDEPT_TO_HR_SHARE_WORK.png)
 
 
 * Access Finance_Share → ❌ Denied
 
-![IPCONFIG](screenshots/verification/HRDEPT_TO_FINANCE_SHARE_DENY.png)
+![HRDEPT_TO_FINANCE_SHARE_DENY](screenshots/verification/HRDEPT_TO_FINANCE_SHARE_DENY.png)
 
 
 ### IT User
 
 * Access IT_Share → ✅ Allowed
 
-![IPCONFIG](screenshots/verification/ITDEPT_TO_IT_SHARE_WORK.png)
+![ITDEPT_TO_IT_SHARE_WORK](screenshots/verification/ITDEPT_TO_IT_SHARE_WORK.png)
 
 * Access HR_Share → ❌ Denied
 
-![IPCONFIG](screenshots/verification/ITDEPT_TO_HR_SHARE_DENY.png)
+![ITDEPT_TO_HR_SHARE_DENY](screenshots/verification/ITDEPT_TO_HR_SHARE_DENY.png)
 
 ### Finance User
 
 * Access Finance_Share → ✅ Allowed
   
-![IPCONFIG](screenshots/verification/FINANCEDEPT_TO_FINANCE_SHARE_WORK.png)
+![FINANCEDEPT_TO_FINANCE_SHARE_WORK](screenshots/verification/FINANCEDEPT_TO_FINANCE_SHARE_WORK.png)
 
 * Access IT_Share → ❌ Denied
   
-![IPCONFIG](screenshots/verification/FINANCEDEPT_TO_IT_SHARE_DENY.png)
+![FINANCEDEPT_TO_IT_SHARE_DENY](screenshots/verification/FINANCEDEPT_TO_IT_SHARE_DENY.png)
 
 ### Shared Folder
 
 * Accessible by all users → ✅
+## HR Users
+![HRDEPT_TO_SHARED_SHARE_WORK](screenshots/verification/HRDEPT_TO_SHARED_SHARE_WORK.png)
 
-![IPCONFIG](screenshots/verification/HRDEPT_TO_SHARED_SHARE_WORK.png)
+## IT Users
+![ITDEPT_TO_SHARED_SHARE_WORK](screenshots/verification/ITDEPT_TO_SHARED_SHARE_WORK.png)
 
-![IPCONFIG](screenshots/verification/ITDEPT_TO_SHARED_SHARE_WORK.png)
+## Finance Users
+![FINANCEDEPT_TO_SHARED_SHARE_WORK](screenshots/verification/FINANCEDEPT_TO_SHARED_SHARE_WORK.png)
 
-![IPCONFIG](screenshots/verification/FINANCEDEPT_TO_SHARED_SHARE_WORK.png)
-
-## 📸 Screenshots (Add your images)
-
-Add screenshots in a folder like:
-
-screenshots/
-
-Examples:
-
-* AD structure
-
-* Users & Groups
-
-* NTFS permissions
-
-* Share permissions
-
-* Access denied proof
 
 ## 💡 Key Concepts Demonstrated
 
