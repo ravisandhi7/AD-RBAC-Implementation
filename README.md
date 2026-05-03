@@ -124,6 +124,15 @@ C:\CompanyData\
 
 * Shared → Shared_Access (Modify)
 
+![IPCONFIG](screenshots/NTFS/HR_ACCESS_PERMISSIONS.png)
+
+![IPCONFIG](screenshots/NTFS/FINANCE_ACCESS_PERMISSIONS.png)
+
+![IPCONFIG](screenshots/NTFS/IT_ADMINS_PERMISSIONS.png)
+
+![IPCONFIG](screenshots/NTFS/SHARED_ACCESS_PERMISSIONS.png)
+
+
 ### Share Permissions
 
 * Configured using respective security groups
