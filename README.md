@@ -95,7 +95,14 @@ The goal is to ensure that users can only access resources based on their job ro
 
 ![IPCONFIG](screenshots/OU_USERS_GROUPS/SECURITY_GROUPS.png)
 
-SECURITY_GROUPS
+![IPCONFIG](screenshots/OU_USERS_GROUPS/HR_ACCESS_MEMBERS.png)
+
+![IPCONFIG](screenshots/OU_USERS_GROUPS/IT_ADMINS_MEMBERS.png)
+
+![IPCONFIG](screenshots/OU_USERS_GROUPS/FINANCE_ACCESS_MEMBERS.png)
+
+![IPCONFIG](screenshots/OU_USERS_GROUPS/SHARED_ACCESS_MEMBERS.png)
+
 
 ## 📁 Folder Structure
 
