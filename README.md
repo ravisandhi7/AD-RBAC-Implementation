@@ -75,7 +75,7 @@ The goal is to ensure that users can only access resources based on their job ro
 * Shared_Access
 
 
-## 🔗 RBAC Mapping
+## RBAC Mapping
 
 | Department | Users        | Group          | Access         |
 | ---------- | ------------ | -------------- | -------------- |
