@@ -87,11 +87,11 @@ The goal is to ensure that users can only access resources based on their job ro
 
 ## RBAC Mapping
 
-| Department      | Users        | Group          | Access         |
-| ----------      | ------------ | -------------- | -------------- |
-| HR_Dept         | hrdept1      | HR_Access      | HR Folder Only |
-| IT_Dept         | itdept1      | IT_Admins      | IT Folder Only |
-| Finance_Dept    | financedept1 | Finance_Access | Finance Folder |
+| Department      | Users                      | Group          | Access         |
+| ----------      | ------------               | -------------- | -------------- |
+| HR_Dept         | hrdept1, hrdept2           | HR_Access      | HR Folder Only |
+| IT_Dept         | itdept1, itdept2           | IT_Admins      | IT Folder Only |
+| Finance_Dept    | financedept1, financedept2 | Finance_Access | Finance Folder |
 
 ![SECURITY_GROUPS](screenshots/OU_USERS_GROUPS/SECURITY_GROUPS.png)
 
