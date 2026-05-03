@@ -165,24 +165,44 @@ C:\CompanyData\
 ### HR User
 
 * Access HR_Share → ✅ Allowed
+ 
+![IPCONFIG](screenshots/verification/HRDEPT_TO_HR_SHARE_WORK.png)
+
 
 * Access Finance_Share → ❌ Denied
+
+![IPCONFIG](screenshots/verification/HRDEPT_TO_FINANCE_SHARE_DENY.png)
+
 
 ### IT User
 
 * Access IT_Share → ✅ Allowed
 
+![IPCONFIG](screenshots/verification/ITDEPT_TO_IT_SHARE_WORK.png)
+
 * Access HR_Share → ❌ Denied
+
+![IPCONFIG](screenshots/verification/ITDEPT_TO_HR_SHARE_DENY.png)
 
 ### Finance User
 
 * Access Finance_Share → ✅ Allowed
+  
+![IPCONFIG](screenshots/verification/FINANCEDEPT_TO_FINANCE_SHARE_WORK.png)
 
 * Access IT_Share → ❌ Denied
+  
+![IPCONFIG](screenshots/verification/FINANCEDEPT_TO_IT_SHARE_DENY.png)
 
 ### Shared Folder
 
 * Accessible by all users → ✅
+
+![IPCONFIG](screenshots/verification/HRDEPT_TO_SHARED_SHARE_WORK.png)
+
+![IPCONFIG](screenshots/verification/ITDEPT_TO_SHARED_SHARE_WORK.png)
+
+![IPCONFIG](screenshots/verification/FINANCEDEPT_TO_SHARED_SHARE_WORK.png)
 
 ## 📸 Screenshots (Add your images)
 
