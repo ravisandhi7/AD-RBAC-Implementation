@@ -10,7 +10,7 @@ The goal is to ensure that users can only access resources based on their job ro
 ## 🏗️ Lab Environment
 
 
-* Windows Server (Domain Controller / ROOTDC)
+* Windows Server (Domain Controller / ROOTDC Name- Server1)
 
 
 * Active Directory Domain Services (AD DS)
