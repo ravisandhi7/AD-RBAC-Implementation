@@ -173,6 +173,10 @@ C:\CompanyData\
 
 ![HRDEPT_TO_FINANCE_SHARE_DENY](screenshots/verification/HRDEPT_TO_FINANCE_SHARE_DENY.png)
 
+![HRDEPT](screenshots/verification/HRDEPT_verification_all.png)
+
+![HRDEPT](screenshots/verification/HRDEPT_verification_all_CONTD.png)
+
 
 ### IT Users
 
@@ -184,6 +188,12 @@ C:\CompanyData\
 
 ![ITDEPT_TO_HR_SHARE_DENY](screenshots/verification/ITDEPT_TO_HR_SHARE_DENY.png)
 
+![ITDEPT](screenshots/verification/ITDEPT_verification.png)
+
+
+![ITDEPT](screenshots/verification/ITDEPT_verification_all.png)
+
+
 ### Finance Users
 
 * Access Finance_Share → ✅ Allowed
@@ -193,6 +203,13 @@ C:\CompanyData\
 * Access IT_Share → ❌ Denied
   
 ![FINANCEDEPT_TO_IT_SHARE_DENY](screenshots/verification/FINANCEDEPT_TO_IT_SHARE_DENY.png)
+
+
+![FINANCEDEPT](screenshots/verification/FINANCEDEPT_verification_all.png)
+
+
+![FINANCEDEPT](screenshots/verification/FINANCEDEPT_verification_all_CONTD.png)
+
 
 ### Shared Folder
 
